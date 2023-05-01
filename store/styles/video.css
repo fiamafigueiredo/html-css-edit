@@ -1,0 +1,52 @@
+.section__video > video {
+    margin-bottom: 44px;
+    width: 100%;
+    height: auto;
+}
+
+.btn-center {
+    display: block;
+    margin: auto auto 80px auto;
+}
+
+.video__container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 0 5rem 2rem;
+}
+
+.video__container >video {
+    width: 50%;
+}
+.video__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 50%;
+}
+
+.video__items--row {
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen  and (max-width:1024px) {
+    .video__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .video__container__none {
+        display: none;
+    }
+    .video__container >video {
+        width: 100%;
+    }
+    .video__items {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,34 @@
+@import url("styles/header.css");
+@import url("styles/video.css");
+@import url("styles/footer.css");
+@import url("styles/grid.css");
+@import url("styles/flex.css");
+@import url("styles/hover.css");
+
+
+
+@font-face {
+    font-family: fontStore;
+    src: url(assets/fonts/WhyteInktrap-Book.woff2);
+}
+
+
+:root {
+    --color-dark: #131313;
+    --color-light: #FFFFFF;
+    --color-warning: #FCED70;
+    --color-secondary: #9C9C9C;
+    --color-dark-emphasis:#000000;
+    --color-background: #F7EEE3;
+    --color-background-secondary: #514F4D;
+}
+
+body {
+    font-family: fontStore;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+
+

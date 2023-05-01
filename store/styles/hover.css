@@ -1,0 +1,100 @@
+
+.product__one {
+    background-image: url(/assets/products/1/product.webp);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 350px;
+    height: 200px;
+
+}
+
+.product__one:hover {
+    background-image: url(/assets/products/1/product-hover.webp);
+    transition: 0.5s;
+}
+
+.product__two {
+    background-image: url(/assets/products/2/product.webp);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 350px;
+    height: 200px;
+    
+}
+.product__two:hover {
+    background-image: url(/assets/products/2/product-hover.webp);
+    transition: 0.5s;
+}
+
+.product__three {
+    background-image: url(/assets/products/3/product.webp);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 350px;
+    height: 200px;
+    
+}
+.product__three:hover {
+    background-image: url(/assets/products/3/product-hover.webp);
+    transition: 0.5s;
+}
+
+.product__four {
+    background-image: url(/assets/products/4/product.webp);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 350px;
+    height: 200px;
+    
+}
+.product__four:hover {
+    background-image: url(/assets/products/4/product-hover.webp);
+    transition: 0.5s;
+}
+.product__five {
+    background-image: url(/assets/products/5/product.webp);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 350px;
+    height: 200px;
+    
+}
+.product__five:hover {
+    background-image: url(/assets/products/5/product-hover.webp);
+    transition: 0.5s;
+}
+.product__six {
+    background-image: url(/assets/products/6/product.webp);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 350px;
+    height: 200px;
+    
+}
+.product__six:hover {
+    background-image: url(/assets/products/6/product-hover.webp);
+    transition: 0.5s;
+}
+
+.product__title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.product__price {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-secondary);
+}
